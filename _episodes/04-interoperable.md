@@ -5,14 +5,13 @@ exercises: 0
 questions:
 - "Key question"
 objectives:
-- "Demystify the term 'interoperable'"
+- "Explain what makes data and software (more) interoperable for machines"
 - "Identify widely used metadata standards for research, including generic and discipline-focussed examples"
-- "Explain the role of controlled vocabularies in enabling FAIR data"
-- "Discuss machine readability aspects of FAIR data"
+- "Explain the role of controlled vocabularies for encoding data and for annotating metadata in enabling interoperability"
 - "Understand how linked data standards and conventions for metadata schema documentation relate to interoperability"
-- "Explore controlled vocabulary tools."
 keypoints:
-- "First key point."
+- "Understand that FAIR is about both humans and machines understanding data."
+- "Interoperability means choosing a data format or knowledge representation language that helps machines to understand the data."
 ---
 
 > ## For data & software to be interoperable:
@@ -21,7 +20,21 @@ keypoints:
 > I3. (meta)data include qualified references to other (meta)data
 {: .checklist}
 
-## Beyond the PDF
+## What is interoperability for data and software?
+
+Shared understanding of concepts, for humans as well as machines.
+
+
+> Software uses community accepted standards and platforms, making it possible for users to run the software.
+[Top 10 FAIR things for research software][10FTRS]
+
+[10FTRS]: https://librarycarpentry.org/Top-10-FAIR//2018/12/01/research-software/
+
+## Describing data and software with shared, controlled vocabularies
+
+## Representing knowledge in data and software
+
+### Beyond the PDF
 Publishers, librarians, researchers, developers, funders, they have all been working towards a future where we can move beyond the PDF, from 'static and disparate data and knowledge representations to richly integrated content which grows and changes the more we learn." Research objects of the future will capture all aspects of scholarship: hypotheses, data, methods, results, presentations etc.) that are semantically enriched, interoperable and easily transmitted and comprehended.
 Attribution, Evaluation, Archiving, Impact 
 https://sites.google.com/site/beyondthepdf/
@@ -33,8 +46,6 @@ aggregation, development & teaching of subject-specific vocabularies, ontologies
 Paper of the Future
 https://www.authorea.com/users/23/articles/8762-the-paper-of-the-future to Jupyter Notebooks/Stencilia
 https://stenci.la/
-
-
 
 For scientists and repositories
 provide machine-readable (meta)data with a well-established formalism 
@@ -49,7 +60,7 @@ clearly identify relationships between datasets in the metadata (e.g. “is new 
 request support regarding these tasks from the repositories in your field of study
 for software: follow established code style guides (thanks to @npch!)
 
-
+## Adding qualified references among data and software
 
 
 Data Science and Digital Libraries => (research) knowledge graph(s)
@@ -93,6 +104,7 @@ If others can use your code, convey the meaning of updates with SemVer.org (CC B
 Exercise
 Python & R Carpentries lessons
 
+## Linked Data
 
 Linked data example
 Triples - RDF - SPARQL
